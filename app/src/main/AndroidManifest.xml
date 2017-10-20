@@ -26,7 +26,6 @@
         <activity
             android:name=".update.UpdateActivity"
             android:configChanges="keyboardHidden|orientation"
-            android:label="在线更新"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" >
 
@@ -34,7 +33,6 @@
         <activity
             android:name=".ErrorActivity"
             android:exported="false"
-            android:label="错误信息"
             android:launchMode="singleTask"
             android:process=":crashInfo"
             android:screenOrientation="portrait" />
